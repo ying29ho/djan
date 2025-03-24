@@ -4,14 +4,14 @@ function Homecarousel() {
   return (
     <Carousel>
       <Carousel.Item>
-        <img className="d-block" src="djan_bg1.svg" alt="BUILT TO LAST" />
+        <img className="d-block w-100" src="djan_bg1.svg" alt="BUILT TO LAST" />
         {/* <Carousel.Caption>
           <h1 className="display-1 text-right">BULT TO LAST</h1>
         </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block"
+          className="d-block w-100"
           src="djan_bg2.svg"
           alt="MAINTAINED FOR LIFE"
         />
