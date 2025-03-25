@@ -17,7 +17,14 @@ function App() {
       </div>
       {/* <Container> */}
 
-      <div className="" id="about">
+      <div
+        id="about"
+        className="position-relative"
+        style={{
+          background: "url('djan_about.svg') center/cover no-repeat",
+          height: "100vh",
+        }}
+      >
         {/* <img className="w-100" src="djan_about.svg" alt="About Us" /> */}
         {/* <h1 className="position-absolute top-30 start-30 display-1 text-right">ABOUT US</h1> */}
         <h1 className="display-1 text-left">ABOUT US</h1>
