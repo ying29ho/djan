@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 function Homepage() {
   return (
-    <Navbar className="bg-body-tertiary" bg="light" expand="lg" sticky="top">
+    <Navbar className="bg-body-tertiary" bg="light" expand="lg" sticky="top" style={{backgroundColor: "#fefeff"}}>
       <Container>
         <Navbar.Brand href="#home">
           <img
