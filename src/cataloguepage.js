@@ -14,7 +14,8 @@ function CataloguePage(){
           <div className="row w-100">
             <div className="col-md-1 empty-container"> </div>
             <div className="col-md-4 button-container"> 
-                <Button className="mt-5"size="lg" href="https://dev.djanworks.com/djan_sportsground_catalogue.pdf"
+                <Button className="mt-5"size="lg" href="https://djanworks.s3.ap-southeast-2.amazonaws.com/Djan_Sportsground_Catalogue.pdf"
+                target="_blank" rel="noopener noreferrer"
                 style={{
                     backgroundColor: "#e1998c",
                     borderColor: "#e1998c",
