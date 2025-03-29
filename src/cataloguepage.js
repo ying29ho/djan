@@ -23,7 +23,7 @@ function CataloguePage(){
             <div className="col-md-5 text-center text-start">
               <img
                 className="img-fluid w-70 rounded"
-                src="sportsground_catalogue.png"
+                src="sportsground_catalogue.svg"
                 alt="djan catalogue"
               />
             </div>
