@@ -2,6 +2,7 @@ import "./App.css";
 import Homepage from "./homepage";
 import Homecarousel from "./homecarousel";
 import Servicescarousel from "./servicescarousel";
+import CataloguePage from "./cataloguepage";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -57,12 +58,37 @@ function App() {
       <div id="services">
         <Servicescarousel />
       </div>
-      <div id="catalogue">
+
+      <div
+        id="catalogue"
+        // className="position-relative"
+        // style={{
+        //   ackground: "url('djan_catalogue.svg') center/cover no-repeat",
+        //   height: "100vh",
+        // }}
+      >
+        <CataloguePage />
+        {/* <div id="catalogue">
         <img
           className="d-block w-100"
           src="djan_catalogue.svg"
           alt="Catalogue"
-        />
+        /> */}
+
+        {/* <div className="catalogue-container h-100 d-flex align items-center" >
+          <div className="row w-100">
+
+          <div className="col-md-5 empty-container"> 
+          <img
+                className="img-fluid w-30 rounded"
+                src="sportsground_catalogue.png"
+                alt="Djan Works Catalogue"
+              />
+              </div>
+          </div>
+        
+
+        </div> */}
       </div>
       <div id="contact">
         <img
